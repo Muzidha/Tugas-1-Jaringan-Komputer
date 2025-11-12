@@ -44,7 +44,6 @@ Perhitungan VLSM dimulai dari base network `10.162.0.0` dan diurutkan berdasarka
 | B Sarana & Prasarana| 45 | /26 | `10.162.3.128`| `255.255.255.192` | `10.162.3.129` - `10.162.3.190` | `10.162.3.191` | 62 |
 | B Pengawas Sekolah | 18 | /27 | `10.162.3.192`| `255.255.255.224` | `10.162.3.193` - `10.162.3.222` | `10.162.3.223` | 30 |
 | Server dan admin | 6 | /29 | `10.162.3.224`| `255.255.255.248` | `10.162.3.225` - `10.162.3.230` | `10.162.3.231` | 6 |
-| **Link WAN (Pusat-Cabang)**| 2 | /30 | **`10.162.3.232`**| **`255.255.255.252`** | `10.162.3.233` - `10.162.3.234` | `10.162.3.235` | 2 |
 
 ---
 
@@ -56,7 +55,7 @@ Untuk efisiensi tabel routing, jaringan di setiap lokasi diagregasi (supernettin
 | :--- | :--- | :--- | :--- |
 | **Kantor Pusat** | Sekretariat, Kurikulum, Guru, Sarana, Server | `10.162.0.0` s/d `10.162.3.231` | **`10.162.0.0/22`** |
 | **Kantor Cabang** | Pengawas Sekolah | `10.162.3.192` s/d `10.162.3.223`| **`10.162.3.192/27`** |
-| **Link WAN** | WAN (Pusat-Cabang) | `10.162.3.232` s/d `10.162.3.235`| **`10.162.3.232/30`** |
+
 
 ---
 
